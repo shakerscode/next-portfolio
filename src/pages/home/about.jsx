@@ -1,10 +1,20 @@
-import Tick from '@/components/icons/tick';
+ import Tick from '@/components/icons/tick';
 import Image from 'next/image';
 import aboutImage from '../../assets/Images/about-image.png';
+import figma from '../../assets/Images/userfigma.png'
+import photoshop from '../../assets/Images/photoshop.png'
+import behance from '../../assets/Images/behance.png'
+import dribble from '../../assets/Images/dribble.png'
+import linkedin from '../../assets/Images/linkedin.png'
+import gmail from '../../assets/Images/gmail.png'
+import vectorThree from '../../assets/Images/vector-three.png'
+import vectorOne from '../../assets/Images/vector-one.png'
+import Down from '@/components/icons/down';
+
 
 const About = () => {
     return (
-        <section className='h-[740px] bg-white-white flex justify-center items-center gap-[90px]'>
+        <section className='h-[740px] bg-white-white flex justify-center items-center gap-[90px] relative'>
             <div>
                 <Image src={aboutImage} width={601} height={562} alt="about-image" />
             </div>
@@ -38,9 +48,45 @@ const About = () => {
 225px] h-full mr-8 rounded-full bg-primary-600'></div></div>
                     </div>
                 </div>
-                <button className='h-[54px] w-[217px] bg-primary-600  rounded-full shadow-[0px 15px 30px 0px #C63B2321] font-medium text-xl leading-[19px] text-white-white mt-[30px]'>
+                <button className='shadow-lg h-[54px] w-[217px] bg-primary-600  rounded-full shadow-[0px 15px 30px 0px #C63B2321] font-medium text-xl leading-[19px] text-white-white mt-[30px]'>
                     Download CV
                 </button>
+            </div>
+            <div className='w-[1140px] h-[178px] bg-white-white rounded-full flex justify-evenly items-center absolute top-[-13%] footer-shadow'>
+                <div>
+                    <p className='font-light text-gray-600 text-lg'>Tools & Skills</p>
+                    <div className='flex items-start gap-[15px] mt-[16px]'>
+                        <div className='cursor-pointer'><Image src={figma} width={55} height={55} alt="user-figma" /></div>
+                        <div className='cursor-pointer'><Image src={photoshop} width={55} height={55} alt="user-photoshop" /></div> 
+                    </div>
+                </div>
+                <div className='h-[125px] border-2 border-r border-gray-200'></div>
+                <div>
+                    <p className='font-light text-gray-600 text-lg'>Check out my</p>
+                    <div className='flex items-center gap-[15px] mt-[16px]'>
+                        <div className='cursor-pointer'><Image src={behance} width={55} height={55} alt="behance-id" /></div>
+                        <div className='cursor-pointer'><Image src={dribble} width={55} height={55} alt="dribble-id" /></div>
+                        <div className='cursor-pointer'><Image src={linkedin} width={55} height={55} alt="lenkedin-id" /></div>
+                    </div>
+                </div>
+
+                <div className='h-[125px] border-2 border-r border-gray-200'></div>
+                <div>
+                    <p className='font-light text-gray-600 text-lg'>Contact me</p>
+                    <div className='flex items-center gap-[15px] mt-[16px]'>
+                         <Image src={gmail} width={55} height={55} alt="" />
+                         <p className='font-medium text-lg text-gray-600'>ismanaveed99@gmail.com</p>
+                    </div>
+                </div>
+            </div> 
+            <a href='#footer' className='absolute top-[-5.5%] right-12 cursor-pointer' id='#home'>
+                <Down/>
+            </a>
+            <div className='absolute bottom-16 right-0'>
+                <Image src={vectorThree} width={85} height={85} alt="vector-three" />
+            </div>
+            <div className='absolute bottom-[-13%] left-0'>
+                <Image src={vectorOne} width={160} height={152} alt="vector-one" />
             </div>
         </section>
     );

@@ -15,3 +15,28 @@
   box-sizing: border-box;
   font-family:  Rubik;
 }
+
+.footer-shadow{
+  box-shadow: 0px 20px 50px -3px #0000000D;
+}
+.contact-bg{
+  background-image: url(../assets//Images//contact-bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;  
+  background-position-y: -.1rem;
+  background-position-x: 52.5rem;
+} 
+.main-bg{
+  background-image: url(../assets//Images/service-bg.png);
+  background-repeat: no-repeat;   
+  background-size: 500px;
+  background-position: top right;
+  background-position-x: 46.5rem; 
+  background-position-y: 15%;  
+}
+.card-z-index{
+  z-index: 20;
+}
+.z-index{
+  z-index: 10;
+}

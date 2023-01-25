@@ -16,7 +16,7 @@ const Navbar = () => {
                     <Link href={"/"}><li className='text-gray-600 font-medium text-base leading-[19px] hover:text-black-600'>Services</li></Link>
                     <Link href={"/"}><li className='text-gray-600 font-medium text-base leading-[19px] hover:text-black-600'>Projects</li></Link>
                 </nav>
-                <button className='h-[54px] w-[170px] text-primary-600 bg-gradient-to-r from-red-500 to-red-600 border-2 border-gradient-to-r from-red-500 to-red-600 rounded-full shadow-[0px 15px 30px 0px #C63B2321] font-medium text-xl leading-[19px]'>
+                <button className='h-[54px] w-[170px] text-primary-600 border-2 border-primary-600 rounded-full shadow-[0px 15px 30px 0px #C63B2321] font-medium text-xl leading-[19px]'>
                     HIRE ME
                 </button>
             </div>
