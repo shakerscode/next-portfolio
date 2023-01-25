@@ -19,10 +19,13 @@ module.exports = {
       black: {
         "600": "#0B132A"
       },
+      white: {
+        "white": "#FFFFFF"
+      },
       gray: {
         "600": "#4F5665"
       }
-    },
+    }, 
     extend: {},
   },
   plugins: [],
