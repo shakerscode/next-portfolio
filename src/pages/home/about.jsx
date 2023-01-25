@@ -13,18 +13,18 @@ const About = () => {
                 <h2 className='uppercase text-[48px] font-semibold leading-[45px] text-black-600'>
                     Who I am
                 </h2>
-                <p className='text-gray-600 font-normal text-[18px] leading-[24px] text-left mt-[10px]'>I am a UX/UI designer who loves creating pixel-perfect designs and unique user experiences. I take pride in providing exceptional customer service while delivering a product that exceeds my client’s expectations every single time. </p>
+                <p className='text-gray-600 font-normal text-lg leading-[24px] text-left mt-[10px]'>I am a UX/UI designer who loves creating pixel-perfect designs and unique user experiences. I take pride in providing exceptional customer service while delivering a product that exceeds my client’s expectations every single time. </p>
                 <div className='flex items-center gap-[20px] mt-[10px]'>
                     <div className='w-[276px] '>
-                        <div className='flex items-center gap-[18px] text-gray-600 font-normal text-[18px] leading-[24px] text-left'>
+                        <div className='flex items-center gap-[18px] text-gray-600 font-normal text-lg leading-[24px] text-left'>
                             <Tick size={24} />
                             <p>Figma Web Designs</p>
                         </div>
-                        <div className='flex items-center gap-[18px] text-gray-600 font-normal text-[18px] leading-[24px] text-left'>
+                        <div className='flex items-center gap-[18px] text-gray-600 font-normal text-lg leading-[24px] text-left'>
                             <Tick size={24} />
                             <p> Mobile Application Designs</p>
                         </div>
-                        <div className='flex items-center gap-[18px] text-gray-600 font-normal text-[18px] leading-[24px] text-left'>
+                        <div className='flex items-center gap-[18px] text-gray-600 font-normal text-lg leading-[24px] text-left'>
                             <Tick size={24} />
                             <p>Graphics Designs</p>
                         </div>

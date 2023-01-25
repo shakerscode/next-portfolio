@@ -2,9 +2,9 @@ import React from 'react';
 
 const Review = () => {
     return (
-        <div>
-             Review 
-        </div>
+       <section className='h-[596px] bg-secondary-600'>
+
+       </section>
     );
 };
 

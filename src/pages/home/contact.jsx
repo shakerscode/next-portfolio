@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
-            Contact
-        </div>
+        <section className='w-[631px] bg-white-white'>
+
+        </section>
     );
 };
 
