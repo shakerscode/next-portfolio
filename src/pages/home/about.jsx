@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div className='w-[552px] h-[414px] flex flex-col gap-[10px]'>
                 <p className='uppercase text-xl font-medium leading-[45px]'><span className='text-primary-600'>About</span> Me </p>
-                <h2 className='uppercase text-[48px] font-semibold leading-[45px] text-black-600'>
+                <h2 className='uppercase text-5xl font-semibold leading-[45px] text-black-600'>
                     Who I am
                 </h2>
                 <p className='text-gray-600 font-normal text-lg leading-[24px] text-left mt-[10px]'>I am a UX/UI designer who loves creating pixel-perfect designs and unique user experiences. I take pride in providing exceptional customer service while delivering a product that exceeds my client’s expectations every single time. </p>
