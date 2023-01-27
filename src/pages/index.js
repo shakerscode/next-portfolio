@@ -22,11 +22,11 @@ export default function Home() {
          <Navbar/>
          <Hero/>
          <About/>
-         <Service/>
-         <Portfolio/>
-         <Review/>
-         <Contact/>
-         <Footer/>
+         {/* <Service/> */}
+         {/* <Portfolio/> */}
+         {/* <Review/> */}
+         {/* <Contact/> */}
+         {/* <Footer/> */}
        </main>
     </>
   )

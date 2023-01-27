@@ -14,18 +14,19 @@ import Down from '@/components/icons/down';
 
 const About = () => {
     return (
-        <section className='h-[740px] bg-white-white flex justify-center items-center gap-[90px] relative'>
-            <div>
+        <section className='h-[740px] bg-white-white flex justify-center items-center md:gap-8 lg:gap-[90px] relative'>
+            <div className='md:w-[447px]'>
                 <Image src={aboutImage} width={601} height={562} alt="about-image" />
-            </div>
-            <div className='w-[552px] h-[414px] flex flex-col gap-[10px]'>
+            </div> 
+
+            <div className='lg:w-[552px] md:w-[398px] lg:h-[414px] md:h-[461px] flex flex-col gap-[10px]'>
                 <p className='uppercase text-xl font-medium leading-[45px]'><span className='text-primary-600'>About</span> Me </p>
                 <h2 className='uppercase text-5xl font-semibold leading-[45px] text-black-600'>
                     Who I am
                 </h2>
                 <p className='text-gray-600 font-normal text-lg leading-[24px] text-left mt-[10px]'>I am a UX/UI designer who loves creating pixel-perfect designs and unique user experiences. I take pride in providing exceptional customer service while delivering a product that exceeds my client’s expectations every single time. </p>
                 <div className='flex items-center gap-[20px] mt-[10px]'>
-                    <div className='w-[276px] '>
+                    <div className='lg:w-[276px] '>
                         <div className='flex items-center gap-[18px] text-gray-600 font-normal text-lg leading-[24px] text-left'>
                             <Tick size={24} />
                             <p>Figma Web Designs</p>
@@ -52,7 +53,10 @@ const About = () => {
                     Download CV
                 </button>
             </div>
-            <div className='w-[1140px] h-[178px] bg-white-white rounded-full flex justify-evenly items-center absolute top-[-13%] footer-shadow'>
+
+
+
+            <div className='lg:w-[1140px] md:w-fit-content md:px-14 h-[178px] bg-white-white rounded-full flex lg:justify-evenly md:justify-between md:gap-7 items-center absolute top-[-13%] footer-shadow'>
                 <div>
                     <p className='font-light text-gray-600 text-lg'>Tools & Skills</p>
                     <div className='flex items-start gap-[15px] mt-[16px]'>
@@ -79,7 +83,7 @@ const About = () => {
                     </div>
                 </div>
             </div> 
-            <a href='#footer' className='absolute top-[-5.5%] right-12 cursor-pointer' id='#home'>
+            <a href='#footer' className='absolute top-[-5.5%] lg:right-12 md:right-[-10px] cursor-pointer' id='#home'>
                 <Down/>
             </a>
             <div className='absolute bottom-16 right-0'>
