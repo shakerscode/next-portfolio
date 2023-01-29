@@ -7,7 +7,7 @@ import Up from '@/components/icons/up';
 const Footer = () => {
     return (
         <footer id='footer' className='md:h-[196px] lg:h-[196px] xl:h-[196px] 2xl:h-[196px] h-[434px] bg-secondary-600 flex justify-center items-center relative'>
-            <a href='#home' className='absolute md:top-[-22%] lg:top-[-22%] xl:top-[-22%] 2xl:top-[-22%] md:right-2 lg:right-2 xl:right-2 2xl:right-2 right-[-20px] top-[-10%] cursor-pointer' id='#home'>
+            <a href='#home' className='absolute md:top-[-22%] lg:top-[-22%] xl:top-[-22%] 2xl:top-[-22%] md:right-2 lg:right-2 xl:right-2 2xl:right-2 right-[0px] top-[-6%] cursor-pointer' id='#home'>
                 <Up/>
             </a>
             <div className='md:w-[1140px] lg:w-[1140px] xl:w-[1140px] 2xl:w-[1140px] md:h-[178px] lg:h-[178px] xl:h-[178px] 2xl:h-[178px] h-[597px] w-[210px] bg-white-white rounded-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:justify-evenly lg:justify-evenly xl:justify-evenly 2xl:justify-evenly justify-center gap-[40px] md:gap-0 lg:gap-0 xl:gap-0 2xl:gap-0 items-center absolute md:top-[-50%] lg:top-[-50%] xl:top-[-50%] 2xl:top-[-50%] top-[-68%] footer-shadow'>

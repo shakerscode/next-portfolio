@@ -2,7 +2,7 @@ import React from 'react';
 
 const Up = () => {
     return (
-        <svg width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="70" height="70" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_d_200_46)">
         <circle r="25" transform="matrix(0 1 1 0 56 41)" stroke="url(#paint0_linear_200_46)"/>
         </g>

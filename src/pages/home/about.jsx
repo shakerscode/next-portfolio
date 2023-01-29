@@ -81,7 +81,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <a href='#home' className='absolute md:top-[-22%] lg:top-[-22%] xl:top-[-22%] 2xl:top-[-22%] md:right-2 lg:right-2 xl:right-2 2xl:right-2 right-[-20px] top-[-3%] cursor-pointer' id='#home'>
+            <a href='#footer' className='absolute md:top-[-22%] lg:top-[-22%] xl:top-[-22%] 2xl:top-[-22%] md:right-2 lg:right-2 xl:right-2 2xl:right-2 right-[0px] top-[-1.8%] cursor-pointer' id='#home'>
                 <Down/>
             </a>
             <div className='absolute bottom-16 right-0 md:block lg:block xl:block 2xl:block hidden'>

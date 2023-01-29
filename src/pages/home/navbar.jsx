@@ -6,8 +6,8 @@ import websiteLogo from '../../assets/Images/portfolio-logo.png'
 
 const Navbar = () => {
     return (
-        <header className='w-{100%} h-[120px] bg-secondary-600 flex md:justify-center lg:justify-around xl:justify-around 2xl:justify-around gap-8 items-center'>
-            <div className='pl-5 w-[226px] flex justify-center items-center'> 
+        <header className='w-{100%} h-[120px] bg-secondary-600 flex   justify-center lg:justify-around xl:justify-around 2xl:justify-around gap-8 items-center'>
+            <div className='md:pl-5 pl-0 w-[226px] flex justify-center items-center'> 
             <Link href={"/"}>
                 <Image src={websiteLogo} width={226} height={56} alt="website-logo" />
             </Link>
