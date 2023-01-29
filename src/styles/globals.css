@@ -73,3 +73,16 @@
   background-image: none;
   box-shadow: none;
 }
+@media screen and (max-width: 640px) {
+  .swiper-slide .swiper-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide .swiper-img img{ 
+    width: 288px;   
+    height: 324px;
+  } 
+}
+ 
+ 
