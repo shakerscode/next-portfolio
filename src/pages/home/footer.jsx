@@ -3,12 +3,12 @@ import footerLogo from '../../assets/Images/portfolio-logo.png'
 import behance from '../../assets/Images/behance.png'
 import dribble from '../../assets/Images/dribble.png'
 import linkedin from '../../assets/Images/linkedin.png'
-import Up from '@/components/icons/up';
+import up from '../../assets/Images/Up.png';
 const Footer = () => {
     return (
         <footer id='footer' className='md:h-[196px] lg:h-[196px] xl:h-[196px] 2xl:h-[196px] h-[434px] bg-secondary-600 flex justify-center items-center relative'>
-            <a href='#home' className='absolute md:top-[-22%] lg:top-[-22%] xl:top-[-22%] 2xl:top-[-22%] md:right-2 lg:right-2 xl:right-2 2xl:right-2 right-[0px] top-[-6%] cursor-pointer' id='#home'>
-                <Up/>
+            <a href='#home' className='absolute md:top-[-22%] lg:top-[-22%] xl:top-[-22%] 2xl:top-[-22%] md:right-2 lg:right-2 xl:right-2 2xl:right-2 w-[80px] md:w-[112px] lg:w-[112px] xl:w-[112px] 2xl:w-[112px] md:h-[112px] lg:h-[112px] xl:h-[112px] 2xl:h-[112px] right-[0px] top-[-9%] cursor-pointer' id='#home'>
+            <Image src={up} alt="down-arrow"/>
             </a>
             <div className='md:w-[1140px] lg:w-[1140px] xl:w-[1140px] 2xl:w-[1140px] md:h-[178px] lg:h-[178px] xl:h-[178px] 2xl:h-[178px] h-[597px] w-[210px] bg-white-white rounded-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:justify-evenly lg:justify-evenly xl:justify-evenly 2xl:justify-evenly justify-center gap-[40px] md:gap-0 lg:gap-0 xl:gap-0 2xl:gap-0 items-center absolute md:top-[-50%] lg:top-[-50%] xl:top-[-50%] 2xl:top-[-50%] top-[-68%] footer-shadow'>
                 <div className='md:w-[226px] lg:w-[226px] xl:w-[226px] 2xl:w-[226px] md:h-[56px] lg:h-[56px] xl:h-[56px] 2xl:h-[56px] w-[160px] h-[106px] flex justify-center items-center'>

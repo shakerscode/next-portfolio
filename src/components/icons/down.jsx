@@ -2,7 +2,7 @@ import React from 'react';
 
 const Down = () => {
     return (
-        <svg width="70" height="70" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="90" height="90" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d_200_253)">
                 <circle cx="56" cy="41" r="25" transform="rotate(-90 56 41)" stroke="url(#paint0_linear_200_253)" />
             </g>

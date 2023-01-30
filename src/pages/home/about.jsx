@@ -10,6 +10,7 @@ import vectorThree from '../../assets/Images/vector-three.png'
 import vectorOne from '../../assets/Images/vector-one.png'
 import Down from '@/components/icons/down';
 import Tick from '../../assets/Images/tick.png'
+import down from '../../assets/Images/Down.png'
 
 
 const About = () => {
@@ -81,8 +82,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <a href='#footer' className='absolute md:top-[-22%] lg:top-[-22%] xl:top-[-22%] 2xl:top-[-22%] md:right-2 lg:right-2 xl:right-2 2xl:right-2 right-[0px] top-[-1.8%] cursor-pointer' id='#home'>
-                <Down/>
+            <a href='#footer' className='absolute md:top-[-22%] lg:top-[-5%] xl:top-[-5.5%] 2xl:top-[-22%] md:right-2 lg:right-2 xl:right-2 2xl:right-2 right-[0px] top-[-2%] cursor-pointer w-[80px] md:w-[112px] lg:w-[112px] xl:w-[112px] 2xl:w-[112px] md:h-[112px] lg:h-[112px] xl:h-[112px] 2xl:h-[112px]'  id='#home'>
+                <Image src={down} alt="down-arrow"/>
             </a>
             <div className='absolute bottom-16 right-0 md:block lg:block xl:block 2xl:block hidden'>
                 <Image src={vectorThree} width={85} height={85} alt="vector-three" />
